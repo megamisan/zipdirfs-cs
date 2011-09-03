@@ -1,0 +1,24 @@
+#summary Home page.
+
+= Introduction =
+
+No introduction yet.
+
+= Details =
+
+== Dependancies ==
+
+  * Mono.Fuse
+  * SharpZipLib
+
+== Installation ==
+
+Put zipdirfs.exe somewhere. Put Mono.Fuse.dll in the same directory. Put libMonoFuseHelper.so in the same directory or in /usr/lib.
+
+If Mono support is not integrated with the system, create a script to run zipdirfs.exe with mono and script parameters.
+
+== Usage ==
+
+To mount a directory, exec `zipdirfs.exe <sourcedir> <mountpoint> [fuse options]`.
+To use it in fstab / mtab write a line like that : 
+`<path_to_zipdirfs.exe>#<sourcedir> <mountpoint> fuse <options> 0 0`
