@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zipdirfs", "zipdirfs.csproj", "{62EB5561-6460-4C81-8718-3802EAD251F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62EB5561-6460-4C81-8718-3802EAD251F1}.Debug|x86.ActiveCfg = Debug|x86
+		{62EB5561-6460-4C81-8718-3802EAD251F1}.Debug|x86.Build.0 = Debug|x86
+		{62EB5561-6460-4C81-8718-3802EAD251F1}.Release|x86.ActiveCfg = Release|x86
+		{62EB5561-6460-4C81-8718-3802EAD251F1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = zipdirfs.csproj
+	EndGlobalSection
+EndGlobal
